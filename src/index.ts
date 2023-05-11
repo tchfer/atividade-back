@@ -5,6 +5,7 @@ import bodyParser from "body-parser";
 import cors from 'cors';
 import routes from "./routes";
 require("dotenv").config();
+
 const config:any = {
    "type": process.env.DB_DIALECT,
    "host": process.env.DB_HOST,

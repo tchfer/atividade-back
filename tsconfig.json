@@ -1,26 +1,24 @@
 {
-   "compilerOptions": {
-     "experimentalDecorators": true,
-     "emitDecoratorMetadata": true,
-     "target": "es2017",
-     "module": "commonjs",
-     "allowJs": true,
-     "esModuleInterop": true,
-     "skipLibCheck": true,
-     "forceConsistentCasingInFileNames": true,
-     "rootDir": "./",
-     "outDir": "./dist",
-     "resolveJsonModule": true,
-     "removeComments": false,
-     "noEmit": false,
-     "typeRoots": [
-       "./node_modules/@types",
-       "src/@types"
-     ]
-   },
-   "include": [
-     "src/**/*.ts",
-     "src",
-     "src/index.ts"
-   ]
- }
+  "version": "2.4.2",
+  "ts-node": {
+    // these options are overrides used only by ts-node
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "target": "es6",
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "./build",
+    "rootDir": "src"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
