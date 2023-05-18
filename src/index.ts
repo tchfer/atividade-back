@@ -14,6 +14,9 @@ const config:any = {
    "password": process.env.DB_PASSWORD,
    "database": process.env.DB_NAME,
    "synchronize": true,
+   "ssl": {
+      "rejectUnauthorized": false
+    },
    "logging": false,
    "entities": [
       "./src/entity/*"
