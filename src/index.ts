@@ -30,8 +30,11 @@ const config:any = {
       "subscribersDir": "src/subscriber"
    }
 }
+
 const app = express()
-createConnection(config)
+createConnection(config).then(async connection => { 
+   console.log("TypeORM with MongoDB"); 
+}).catch(error => console.log(error));
 app.use(cors())
 app.use(bodyParser.json())
 app.use(routes)

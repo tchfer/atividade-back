@@ -1,0 +1,6 @@
+DB_DIALECT=mongodb
+DB_HOST=ac-4no9azv-shard-00-02.4ucmbjf.mongodb.net
+DB_PORT=27017
+DB_USER=fiaptask
+DB_PASSWORD=xQvKDccJzwRqjGCq
+DB_NAME=Cluster0
