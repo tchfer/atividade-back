@@ -7,6 +7,7 @@
 
 Frontend: https://atividade-front.herokuapp.com/tarefas  
 *   React
+*   Typescript
 *   Axios
 *   nodenv
 *   bootstrap
@@ -14,6 +15,7 @@ Frontend: https://atividade-front.herokuapp.com/tarefas
 
 Backend: https://atividade-back.herokuapp.com/tasks  
 *   Nodejs
+*   Typescript
 *   Typeorm
 *   Postgres
   
