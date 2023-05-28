@@ -9,6 +9,8 @@ Frontend: https://atividade-front.herokuapp.com/tarefas
 *   React
 *   Axios
 *   nodenv
+*   bootstrap
+*   react router dom
 
 Backend: https://atividade-back.herokuapp.com/tasks  
 *   Nodejs
