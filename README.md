@@ -1,19 +1,21 @@
-# Atividade Fullstack
+\# Atividade Fullstack 
 
-Organizador de tarefas
+**Organizador de tarefas** 
 
-Ambientes publicados
+Ambientes publicados - Heroku
 
+* * *
 
-Frontend: https://atividade-front.herokuapp.com/tarefas
+Frontend: https://atividade-front.herokuapp.com/tarefas  
 
-Backend: https://atividade-back.herokuapp.com/tasks
-
+Backend: https://atividade-back.herokuapp.com/tasks  
+  
 Repositórios
 
+* * *
 
-Frontend: https://github.com/tchfer/atividade-front
+Frontend: https://github.com/tchfer/atividade-front  
 
-Backend: https://github.com/tchfer/atividade-back
+Backend: https://github.com/tchfer/atividade-back  
 
 Mobile: https://github.com/tchfer/atividade-mobile
