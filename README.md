@@ -6,8 +6,13 @@
 * * *
 
 Frontend: https://atividade-front.herokuapp.com/tarefas  
+*   React
+*   Axios
+*   nodenv
 
 Backend: https://atividade-back.herokuapp.com/tasks  
+*   Nodejs
+*   Typeorm
   
 * * * 
  
